@@ -1,4 +1,5 @@
 duckdb==0.6.1
+huggingface-hub==0.24.7
 librosa==0.10.0
 matplotlib==3.6.2
 numpy==1.23.5

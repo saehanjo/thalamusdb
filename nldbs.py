@@ -101,7 +101,7 @@ def craigslist():
     # Read furniture table from csv.
     df_furniture = get_df_by_name("furniture")
 
-    df_images = get_df_by_name("furniture_imgs")
+    df_images = get_df_by_name("furniture_imgs").copy()
     img_paths = df_images["img"]
     t = transforms.Compose([transforms.ToPILImage()])
     dataset = ImageDataset(img_paths, t)
