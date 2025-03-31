@@ -18,7 +18,7 @@ source .venv/bin/activate
 
 # Download and unzip Craigslist image files: 186 MB
 sudo pip install gdown
-gdown 1_Hzv2cIUhq_qKehoQrriaYZ9Ua7rL9nI
+gdown 1iy_H4jjeDDnDHY1wi1l6A6THodB2ShFY
 mv furniture_imgs.zip craigslist
 unzip craigslist/furniture_imgs.zip -d craigslist
 
@@ -38,7 +38,7 @@ streamlit run gui.py [OPENAI_API_ACCESS_KEY]
 # First, install ThalamusDB and download Craigslist image files based on Quick Start.
 
 # Download Netflix movie ratings csv file: 2.71 GB
-gdown 1lGCpvEPX-ax_7OjBOIW6ZGryAyCtIlhN
+gdown 11lfRbEtJbdot_G3Qlr3lb-85ZYTrbC3c
 
 # To run the YouTube benchmark, download the raw waveforms of the AudioCaps dataset: https://audiocaps.github.io/
 # Then, unzip files into train, test, and val folders in audiocaps/waveforms: 32.26 GB
