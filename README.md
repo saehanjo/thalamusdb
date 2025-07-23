@@ -1,9 +1,12 @@
-# ThalamusDB: Answering Complex Queries with Natural Language Predicates on Multi-Modal Data
+# Important: Please use the code at [https://github.com/itrummer/thalamusdb](https://github.com/itrummer/thalamusdb) for the latest version!
+
+## ThalamusDB: Answering Complex Queries with Natural Language Predicates on Multi-Modal Data
 
 [Research Paper](https://dl.acm.org/doi/10.1145/3654989) [Demo Paper](https://dl.acm.org/doi/abs/10.1145/3555041.3589730) [Demo Video](https://youtu.be/wV9UhULhFg8)
 
 > ThalamusDB supports SQL queries with natural language predicates on multi-modal data. Our data model extends the relational model and integrates multi-modal data, including visual, audio, and text data, as columns. Users can write SQL queries including predicates on multi-modal data, described in natural language.
 
+<del>
 
 ## Quick Start (GUI using OpenAI GPT-4-Turbo)
 
@@ -73,3 +76,4 @@ SELECT max(price) FROM images, furniture WHERE images.aid = furniture.aid AND nl
 ### Using an NLDatabase instance.
 
 Create a new function in `nldbs.py` that creates a NLDatabase instance (refer to functions `craisglist()`, `youtubeaudios()`, and `netflix()`). It requires loading relational data to DuckDB and providing pointers to image and audio data.
+</del>
